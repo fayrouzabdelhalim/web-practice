@@ -1,0 +1,81 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            form pt2
+        </title>
+    </head>
+    <body>
+        <form action="file:///D:/Web%20practice/HTML/form%2002/html%2025.html">
+        <label for=token >token</label>
+        <input name="token" type="text" hidden id="token" value=" b92f1fc2fce391ad7af633723afd3055">
+        <br>
+        <label for= mail >email</label>
+        <input name="email" type="email"  id="mail" readonly value="o@o.com">
+        <br>
+        <label for name>username</label>
+        <input name="username" type="text"  id="name" autofocus minlength="5" maxlength="20">
+        <br>
+       
+        <hr>
+         <h4> skills</h4>
+         
+        <input type="checkbox" id="prb" checked value="1">
+        <label for=prb>problem solving</label>
+        <br>
+        <input type="checkbox" id="logic" value="2">
+        <label for=logic>logical thinking</label>
+        <br>
+        <input type="checkbox" id="analy" value="3">
+        <label for=analy>analysis</label>
+        <hr>
+        <h4>job</h4>
+        <div>
+        <div>
+        <input type="radio" name="job" id="frnt" checked value="1">
+        <label for="frnt">frontend developer</label>
+        </div>
+        <br> 
+        <input type="radio" name="job" id="back" value="2">
+        <label for="back">backend developer</label>
+        </div>
+        <br>
+        <div>
+        <input type="radio" name="job" id="prjct" value="3">
+        <label for="prjct">project managerr</label>
+        </div>
+       <br>
+       <div>
+        <input type="radio" name="job" id="business" value="4">
+        <label for="business">business analyst</label>
+       </div>
+        </div>
+        <hr>
+        <div>
+        <label for="book">choosebook</label>
+       <select name="books" id="book">choose book
+       <optgroup label="php">
+       <option value="v5.0">v5.0</option>
+       <option value="v7.0">v7.0</option>
+       <option value="v8.0">v8.0</option>
+       </optgroup >
+       <optgroup label="python">
+
+       <option value="v2.0">v2.0</option>
+       <option value="v3.0">v3.0</option>
+       <option value="v4.0">v4.0</option>
+    </optgroup>
+    </select>
+        </div>
+        <hr>
+        <div>
+            <textarea name="breif" id="breif" cols="40" rows="10" placeholder="write here what you want to learn"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="send" name="send">
+        <input type="reset" value="empty" name="reset">
+
+        </form>
+    </body>
+</html>
