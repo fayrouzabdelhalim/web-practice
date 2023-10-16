@@ -1,0 +1,17 @@
+a {
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color:rgb(4,148,140);
+    border-bottom:20px solid rgb(4,84,76);
+    font-size: 50px;
+    margin: auto;
+    padding: auto;
+    width: fit-content;
+    
+
+}
+    
+    

@@ -1,0 +1,22 @@
+div{
+    width:400px;
+    padding: 10px;
+    background-color: gainsboro;
+    margin: 10px;
+  
+    
+}
+div.three{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+   
+}
+div.two{
+    overflow: hidden;
+    text-overflow: hidden;
+    white-space:nowrap;
+    
+    
+
+}
